@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Site",
+    "description": "This project is a portfolio website showcasing my work and skills.",
+    "deployedSite": "https://sakthivigneshportfolio.netlify.app/",
+    "gitRepo": "https://github.com/yourusername/project1",
+    "screenshot": "screenshot1",
+    "inProgress": false
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "description": "This is the description for Project 2.",
+    "deployedSite": "https://project2.example.com",
+    "gitRepo": "https://github.com/yourusername/project2",
+    "screenshot": "screenshot2",
+    "inProgress": true
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "This is the description for Project 3.",
+    "deployedSite": "https://project3.example.com",
+    "gitRepo": "https://github.com/yourusername/project3",
+    "screenshot": "screenshot3",
+    "inProgress": true
+  },
+  {
+    "id": 4,
+    "title": "Project 4",
+    "description": "This is the description for Project 4.",
+    "deployedSite": "https://project4.example.com",
+    "gitRepo": "https://github.com/yourusername/project4",
+    "screenshot": "screenshot4",
+    "inProgress": false
+  },
+  {
+    "id": 5,
+    "title": "Project 5",
+    "description": "This is the description for Project 5.",
+    "deployedSite": "https://project5.example.com",
+    "gitRepo": "https://github.com/yourusername/project5",
+    "screenshot": "screenshot5",
+    "inProgress": true
+  }
+]

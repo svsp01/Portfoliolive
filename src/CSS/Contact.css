@@ -1,0 +1,36 @@
+
+  #contact-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  #contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  #card-body {
+    padding: 2rem;
+  }
+
+  #card-body h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+  }
+  
+  #responseMessage {
+    margin-bottom: 1rem;
+  }
+  
+  #social-icons a {
+    margin: 0 0.5rem;
+  }
+  
+  #social-icons a i {
+    font-size: 1.125rem;
+  }
+  

@@ -1,0 +1,72 @@
+{
+    "name": "Sakthi Vignesh",
+    "title": "Full Stack Developer",
+    "phone": "+91-9003817379",
+    "email": "sakthisvsp01@gmail.com",
+    "website": "https://sakthivignesh.netlify.app/",
+    "experience": [
+      {
+        "company": "TNQ Technologies",
+        "position": "Production Editor",
+        "location": "Coimbatore",
+        "duration": "2020-2023",
+        "responsibilities": [
+          "Oversees publication production, ensuring accuracy, quality, and timely delivery.",
+          "Collaborates with authors, editors, and designers to streamline content and manage the production workflow effectively."
+        ]
+      },
+      {
+        "company": "TNQ Technologies",
+        "position": "Quality Checker",
+        "location": "Coimbatore",
+        "duration": "2019-2020",
+        "responsibilities": [
+          "Ensures quality and accuracy of electronic publications through meticulous content and formatting checks, ensuring a seamless reading experience."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's degree program in Physics (65%)",
+        "institution": "BSc in Physics: Karpagam Academy of Higher Education",
+        "duration": "2016-2019",
+        "cgpa": "CGPA: 6.5",
+        "achievements": [
+          "Proficiency in key physics subjects"
+        ]
+      },
+      {
+        "degree": "12th Grade Academic Achievements (68.5%)",
+        "institution": "HSC: Kadri mills higher secondary school",
+        "duration": "2016",
+        "achievements": [
+          "Proficiency in key Bio-Math subjects"
+        ]
+      },
+      {
+        "degree": "10th Grade Academic Achievements (93%)",
+        "institution": "SSLC: Kadri mills higher secondary school",
+        "duration": "2014",
+        "achievements": ["Proficiency in all subjects"]
+      }
+    ],
+    "technicalSkills": [
+      "Node.js",
+      "REST API",
+      "React",
+      "HTML",
+      "CSS",
+      "Git, Git Hub",
+      "MongoDB"
+    ],
+    "additionalSkills": [
+      "Email drafting",
+      "Photo editing",
+      "Video editing",
+      "Touch typing",
+      "Computer hardware"
+      
+    ],
+    "declaration": "I affirm that the information provided above is accurate and truthful to the best of my knowledge."
+  }
+  
