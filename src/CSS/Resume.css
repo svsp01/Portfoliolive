@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+body {
+  background-color: #F7F7F7;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#resume-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 30px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#name {
+  font-size: 36px;
+  color: #04DBC6;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  cursor: default;
+  animation: slideIn 1s ease;
+}
+
+#title {
+  font-size: 24px;
+  color: #035AA6;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.contact {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 8px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.contact a {
+  color: #035AA6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #12DBC7;
+}
+
+.card-r {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-r:hover {
+  transform: scale(1.05);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  padding: 15px;
+}
+
+.declaration {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #04DBC6;
+  color: #fff;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Additional Animations */
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate__fadeInLeft {
+  animation: fadeInLeft 1s ease;
+}
+
+.animate__fadeInRight {
+  animation: fadeInRight 1s ease;
+}

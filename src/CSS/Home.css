@@ -1,0 +1,77 @@
+/* Add these CSS styles to your stylesheet or component */
+.btn {
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0);
+  }
+  
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.2));
+    transition: transform 0.5s;
+    z-index: -1;
+  }
+  
+  .btn:hover:before {
+    transform: translateX(100%);
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fade-in-animation 2s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .container-u{
+    max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  }
+  .container-fluid-foot {
+    position: relative;
+    z-index: 0;
+  }
+  .card-container {
+    perspective: 1000px;
+  }
+  
+  .card-container:hover .card {
+    transform: rotateY(360deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+  }
+  
