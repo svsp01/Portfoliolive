@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Project 2",
-    "description": "This is the description for Project 2.",
+    "description": "This app is a comprehensive e-commerce website for designing clothes and accessories, built with React, Node.js, HTML, CSS, Bootstrap, Redux, Express, and more.",
     "deployedSite": "https://project2.example.com",
     "gitRepo": "https://github.com/yourusername/project2",
     "screenshot": "screenshot2",
