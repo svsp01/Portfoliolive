@@ -2,7 +2,7 @@ import React from 'react';
 import QRCode from 'qrcode.react';
 
 function CardBack() {
-  const whatsappNumber = '9003817379';
+  const whatsappNumber = '+91 9003817379';
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
